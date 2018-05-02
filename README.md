@@ -1,2 +1,1 @@
 # shoeAppLandingPage
-The code
