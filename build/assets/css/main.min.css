@@ -345,15 +345,14 @@ hr {
   left: 0; }
 
 #header {
-  background: url("../img/heroBackground.jpg");
-  background-repeat: no-repeat;
+  background-image: url(../img/heroBackground.jpg);
   background-size: cover;
   height: 700px;
   color: white;
   text-align: center;
   overflow: auto; }
 
-img {
+.phone {
   max-width: 50%; }
 
 article {
@@ -389,3 +388,16 @@ a.download {
   background: white;
   color: #28B7BF;
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.3); }
+
+#brands ul {
+  padding: 20px 0;
+  background: white;
+  display: grid;
+  grid-template-columns: repeat(6, auto); }
+  @media only screen and (max-width: 550px) {
+    #brands ul {
+      grid-template-columns: repeat(3, auto); } }
+  #brands ul li {
+    list-style: none; }
+    #brands ul li img {
+      max-width: 100%; }
