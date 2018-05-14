@@ -350,7 +350,9 @@ hr {
   grid-gap: 35px; }
   @media only screen and (max-width: 550px) {
     .cards {
-      grid-template-columns: repeat(1, auto); } }
+      grid-template-columns: repeat(1, auto);
+      width: 90%;
+      margin: 0 auto; } }
 
 .feature-card {
   background-color: white;
@@ -373,6 +375,26 @@ h3 {
   border-top: 2px solid #28B7BF; }
   .device img {
     transform: rotate(90deg); }
+
+#discount {
+  margin-top: 65px; }
+
+.discountLayout {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .discountLayout .offer {
+    width: 40%;
+    margin: 0 auto; }
+    .discountLayout .offer h2 {
+      margin: 30px 0; }
+  .discountLayout .button {
+    background: #0eff00;
+    background: linear-gradient(209deg, #0eff00 0%, #00ecff 50%, #00b0ff 100%);
+    color: white;
+    padding: 20px 90px;
+    font-size: 1.5em;
+    box-shadow: 0px 10px 19px -5px rgba(0, 0, 0, 0.41); }
 
 .flex-video {
   height: 0;
