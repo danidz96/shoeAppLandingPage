@@ -431,6 +431,15 @@ h3 {
     top: 20px;
     content: url("../img/playicon.png"); }
 
+#footer {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 50px 0; }
+  #footer li {
+    list-style: none; }
+    #footer li a {
+      padding: 0 20px; }
+
 .flex-video {
   height: 0;
   margin-bottom: 0.88889rem;
