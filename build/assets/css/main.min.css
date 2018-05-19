@@ -327,6 +327,30 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
+.main-nav {
+  display: flex;
+  margin-top: 20px; }
+  .main-nav li {
+    list-style: none; }
+  .main-nav li:first-child {
+    margin-right: auto; }
+  .main-nav a {
+    color: white;
+    display: block;
+    border-radius: 4px;
+    padding: 10px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.2s ease; }
+  .main-nav a:hover, .main-nav a:active {
+    color: #F012BE; }
+
+a.download {
+  background: white;
+  color: #28B7BF;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.3); }
+
 #features {
   background: #f9f9f9;
   text-align: center;
@@ -480,27 +504,6 @@ h1 {
 
 p {
   font-size: 16px; }
-
-.main-nav {
-  display: flex;
-  margin-top: 20px; }
-  .main-nav li {
-    list-style: none; }
-  .main-nav li:first-child {
-    margin-right: auto; }
-  .main-nav a {
-    color: white;
-    display: block;
-    border-radius: 4px;
-    padding: 10px 50px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold; }
-
-a.download {
-  background: white;
-  color: #28B7BF;
-  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.3); }
 
 #brands ul {
   padding: 20px 0;
