@@ -3,6 +3,9 @@
   text-align: center
   position: relative
   height: 500px
+  @media only screen and (max-width: 680px)
+    height: auto
+
   &:after
     bottom: 0
     position: absolute
@@ -19,10 +22,8 @@
   display: grid
   grid-template-columns: repeat(3, auto)
   grid-gap: 35px
-  @media only screen and (max-width: 550px)
+  @media only screen and (max-width: 680px)
     grid-template-columns: repeat(1, auto)
-    width: 90%
-    margin: 0 auto
 
 
 .feature-card
@@ -41,6 +42,6 @@ h3
 .shoe
   border-top: 2px solid #510EED
 .device
-  border-top: 2px solid $ocean
+  border-top: 2px solid #00ADFF
   img
     transform: rotate(90deg)

@@ -6,22 +6,32 @@
   text-align: center
   overflow: hidden
 
-.phone
-  max-width: 50%
+  @media only screen and (max-width: 680px)
+    height: 500px
 
-article
-  width: 60%
-  margin: 0 auto
+  .phone
+    max-width: 50%
 
-h1
+  article
+    width: 60%
+    margin: 0 auto
+
+    @media only screen and (max-width: 680px)
+      width: 100%
+
+  h1
     margin-bottom: 10px
     color: white
     text-align: center
     text-transform: uppercase
 
-p
-  font-size: 16px
+    @media only screen and (max-width: 680px)
+      margin-top: 60px
 
+  p
+    font-size: 16px
+    @media only screen and (max-width: 680px)
+      margin-bottom: 60px
 
 #brands ul
   padding: 20px 0
