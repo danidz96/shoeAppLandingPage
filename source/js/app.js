@@ -1,9 +1,4 @@
-
-// JavaScript
-window.sr = ScrollReveal(); 
-// sr.reveal('h1', {
-//     delay: 0,
-//     duration: 200,
-//     origin: 'bottom',
-//     distance: '100px' 
-// });
+function showNav() {
+    var x = document.querySelector("#responsive-nav");
+    x.classList.toggle('unfold');
+}

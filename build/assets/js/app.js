@@ -1,1 +1,1 @@
-window.sr=ScrollReveal();
+function showNav(){document.querySelector("#responsive-nav").classList.toggle("unfold")}
